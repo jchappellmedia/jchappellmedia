@@ -48,4 +48,17 @@
 
 ---
 
+### 🎨 Media Generation Toolkit
+
+This repo also ships a tiny, dependency-free **[KIE.ai](https://kie.ai/) client + CLI**
+for generating images, video, and music from the command line.
+See **[docs/kie.md](docs/kie.md)** to get started:
+
+```bash
+cp .env.example .env   # add your KIE_API_KEY
+node generate.js --prompt "a neon city skyline at dusk" --aspect 16:9
+```
+
+---
+
 <p align="center"><em>Thanks for stopping by — let's build something great. ✨</em></p>
